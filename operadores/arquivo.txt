@@ -1,0 +1,20 @@
+-- ordem de precedência
+-> ()
+-> exponenciação
+-> multiplicação e divisão
+-> adição e subtração
+
+-- operadores de comparação
+-> == igual
+-> != diferente
+-> >  maior
+-> <  menor
+-> >= maior ou igual
+-> <= menor ou igual
+
+-- operadores de atribuição 
+-> +=
+-> -=
+-> *=
+-> /=
+-> %=

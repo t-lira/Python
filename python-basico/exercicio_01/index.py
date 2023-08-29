@@ -1,0 +1,5 @@
+nome = input('qual o seu nome: ')
+idade = input('qual é a sua idade: ')
+idade = str(idade)
+cidade = input('Onde você mora?')
+print('Olá, seja bem vinda, ' + nome + '. você tem tem ' + idade + ' anos e é moradora de ' + cidade + '.')

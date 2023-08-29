@@ -1,0 +1,60 @@
+Aprendendo Python
+
+-- print() - criado para extrair resultados para a tela
+-> print("hello Word") 
+podemos usar aspas simple (') ou duplas (")
+
+-- Comentários - Existem dois tipos de comentários 
+-> Em linha  #
+-> Em bloco ''' (três aspas no inicio e três no final do comentário)
+
+-- Tipos de dados (data types)
+-> String/str = Texto
+-> Number = existem dois tipos de números, integer (numero inteiro) float (fração)
+-> Boolean = true(V) false(F)
+
+-- Variáveis
+-> container para amarzenar dados,  
+x = 2
+
+
+-- Modificando tipos de dados
+-> str (converte p/ string)
+-> int (converte p/ número inteiro)
+-> float (converte de inteiro para fração)
+
+-- input pedir informaçoes para o usuario
+-> nome = input('qual o seu nome: '
+
+-- identificar o tipo de dado
+-> print(type(idade))
+
+Slice pegar porçoes da string e trabalhar  com ela
+fruta = 'Abacate'
+#index 0123456
+print(fruta[3])
+
+fruta = 'Abacate'
+#index 0123456
+print(fruta[3:5]) 3 até 5
+
+fruta = 'Abacate'
+#index 0123456
+print(fruta[-1]) conta de trás para 
+
+valor = 99.75
+valor = str(valor)
+#index
+print(valor[3:5])
+
+-- Formated String
+nome = 'thais'
+sobrenome = 'lira'
+profissao = 'pedagoga'
+ 
+texto = f' o {nome} {sobrenome} é um excelente [{profissao}]'
+print(texto)
+
+
+-- metodos para string modificar texto de strings
+
