@@ -1,22 +1,25 @@
-Aprendendo Python
+-- Aprendendo Python
+Python  é   uma   linguagem   de   altíssimo   nível orientada a objetos, de tipagem dinâmica e forte, interpretada e interativa. Foi criada em 1990 por Guido van Rossum, no Instituto Nacional de Pesquisa para Matemática e Ciência da Computação  da Holanda
 
--- print() - criado para extrair resultados para a tela
--> print("hello Word") 
-podemos usar aspas simple (') ou duplas (")
+-- Comentários  
+Existem dois tipos de comentários 
+  
+--> O caractere # marca o inicio de comentário (Em linha).
+--> O caractere ''' marca o inicio  e o final de comentário  (Em bloco).
 
--- Comentários - Existem dois tipos de comentários 
--> Em linha  #
--> Em bloco ''' (três aspas no inicio e três no final do comentário)
-
--- Tipos de dados (data types)
--> String/str = Texto
--> Number = existem dois tipos de números, integer (numero inteiro) float (fração)
--> Boolean = true(V) false(F)
+## váriaveis e tipos de dados
 
 -- Variáveis
--> container para amarzenar dados,  
+--> Uma variável é simplesmente um nome que faz referência a um objeto na memória que corresponde. ou seja, um container para amarzenar dados na memoria do computador. 
 x = 2
 
+-- Tipos de dados (data types)
+Python possui vários tipos básicos ou fundamentais: 
+--> números inteiros; 
+-->números de ponto flutuante;
+--> booleanos;
+--> números complexos;
+--> cadeias de caracteres.
 
 -- Modificando tipos de dados
 -> str (converte p/ string)
@@ -57,4 +60,21 @@ print(texto)
 
 
 -- metodos para string modificar texto de strings
+
+
+## Funções de entrada e saída de texto
+
+Funções de entrada e saída permitem que programas troquem mensagens entre si ou que programas troquem mensagens com os usuários. 
+
+Função input()
+Para usar a função input() devemos fazer o seguinte.
+
+var = input( mensagem )
+A função input() recebe uma mensagem (uma string) que é exibida no shell. A função dessa mensagem é explicar ao usuário o que digitar. Ao terminar de digitar, o usuário deve teclar ENTER para enviar a string digitada ao programa. O programa atribui essa string à variável var.
+
+Função print()
+Para usar a função print() devemos fazer o seguinte.
+
+print( lista_de_valores_separada_por_vírgulas )
+A função print() recebe uma lista de valores separada por vírgulas e imprime cada valor (transforma o valor para uma string e o imprime a string), adicionando um espaço em branco entre duas strings e pulando de linha ao final.
 

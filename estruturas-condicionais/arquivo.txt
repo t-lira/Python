@@ -1,0 +1,20 @@
+## Estrutura condicional
+A estrutura condicional é uma seção que ajuda a definir condições para a execução de determinados blocos de comandos. 
+Em vez de executar tudo de vez, sem nenhuma interrupção, o programa deve parar para executar um teste e decidir qual caminho seguir.
+
+ ## IF-ELSE
+--> O IF deve propor alguma coisa. É preciso escrever o IF e logo depois colocar a condição analisada. Então, em seguida, o bloco de comandos. 
+--> O ELIF é uma estrutura intermediária dentro da seção if-else no python e deve vir como um complemento a ambos. 
+--> O ELSE surge depois do IF, em complemento lógico a ele. 
+Exemplo:
+cor = "alguma coisa"
+if cor == "verde":
+    print (acelera")
+elif cor == "amarelo":
+    print("Atenção")
+else:
+    print("parar")
+
+
+## IF COM FOR
+Aqui temos outro exemplo utilizando o IF com FOR para que possamos fazer várias verificações dentro de uma estrutura de repetição.

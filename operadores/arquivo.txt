@@ -1,20 +1,46 @@
 -- ordem de precedência
--> ()
--> exponenciação
--> multiplicação e divisão
--> adição e subtração
+Python segue a mesma convenção usada na matemática
+
+-->  Parêntesis ()
+-->  Expoentes
+--> Multiplicação e divisão (Da esquerda para a direita)
+--> Adição e subtrações (Da esquerda para a direita)
+
+-- Operadores aritméticos
+Os operadores aritméticos são utilizados na execução de operações matemáticas
+
+--> + Realiza a soma entre operandos - Adiciona o sinal de positivo ao número
+--> - Realiza a subtração entre operandos - Adiciona o sinal de negativo ao número
+--> * Realiza a multiplicação entre operandos
+--> / Realiza a divisão entre operandos
+--> // Realiza a divisão entre operandos e a parte decimal do resultado
+--> % Retorna o resto da divisão entre operandos
+--> ** Retorna um número elevado a potência de outro
 
 -- operadores de comparação
--> == igual
--> != diferente
--> >  maior
--> <  menor
--> >= maior ou igual
--> <= menor ou igual
+Os operadores de comparação são usados para comparar valores
+
+-> == Verifica se um valor é igual a outro
+-> != Verifica se um valor é diferente de outro
+-> >  Verifica se um valor é maior que outro
+-> <  Verifica se um valor é menor que outro
+-> >= Verifica se um valor é maior ou igual a outro
+-> <= Verifica se um valor é menor ou igual a outro
 
 -- operadores de atribuição 
--> +=
--> -=
--> *=
--> /=
--> %=
+Os operadores de atribuição atribuem valor a uma variável.
+--> +=
+--> -=
+--> *=
+--> /=
+--> %=
+
+-- Operadores lógicos
+Os operadores lógicos são usados para unir duas ou mais expressões condicionais, Os operadores lógicos são: and, or, not, is e in.
+
+--> and:   retorna   verdadeiro   se   e   somente   se   receber   duas   expressões   que   forem verdadeiras.
+--> or: retorna falso se e somente se receber duas expressões que forem falsas.
+
+--> not: retorna falso se receber uma expressão verdadeira e vice-versa.
+--> is: retorna verdadeiro se receber duas referências ao mesmo objeto e falso em caso contrário.
+--> in: retorna verdadeiro se receber um item e uma lista e o item ocorrer uma ou mais vezes na lista e falso em caso contrário.
